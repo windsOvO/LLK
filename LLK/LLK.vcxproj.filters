@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\CGameKernel">
+      <UniqueIdentifier>{e85aa5be-534c-4400-9245-966c42753eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CDialog">
+      <UniqueIdentifier>{712c3de6-4e7e-493e-bdb4-9facc01ddbf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CDialog">
+      <UniqueIdentifier>{71731a06-4073-411c-a227-d53ab014f587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CGameKernel">
+      <UniqueIdentifier>{dab2d604-c58d-4579-8893-eac45ce26694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CGamePattern">
+      <UniqueIdentifier>{e1239c02-7157-43ab-87b9-4b0f9e3ebdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CGamePattern">
+      <UniqueIdentifier>{43f263b5-50a7-4e4c-909d-38d9c3fd0b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CRank">
+      <UniqueIdentifier>{acdbf80a-f8cc-4831-b6e7-debc55ab7af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CRank">
+      <UniqueIdentifier>{2467723a-5b6d-4c95-b731-df86de3d76f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameDlg.h">
+      <Filter>头文件\CDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameLogic.h">
+      <Filter>头文件\CGameKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="CGraph.h">
+      <Filter>头文件\CGameKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="CHelpDlg.h">
+      <Filter>头文件\CDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="LLKDlg.h">
+      <Filter>头文件\CDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameControl.h">
+      <Filter>头文件\CGamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="LLK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameBasic.h">
+      <Filter>头文件\CGamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameLevel.h">
+      <Filter>头文件\CGamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameRelax.h">
+      <Filter>头文件\CGamePattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankDlg.h">
+      <Filter>头文件\CDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CScoreDao.h">
+      <Filter>头文件\CRank</Filter>
+    </ClInclude>
+    <ClInclude Include="CScoreLogic.h">
+      <Filter>头文件\CRank</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingDlg.h">
+      <Filter>头文件\CDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CThemeOptionDlg.h">
+      <Filter>头文件\CDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameLogic.cpp">
+      <Filter>源文件\CGameKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameDlg.cpp">
+      <Filter>源文件\CDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CGraph.cpp">
+      <Filter>源文件\CGameKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="CHelpDlg.cpp">
+      <Filter>源文件\CDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LLKDlg.cpp">
+      <Filter>源文件\CDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LLK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameControl.cpp">
+      <Filter>源文件\CGamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameBasic.cpp">
+      <Filter>源文件\CGamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameLevel.cpp">
+      <Filter>源文件\CGamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameRelax.cpp">
+      <Filter>源文件\CGamePattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankDlg.cpp">
+      <Filter>源文件\CDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CScoreDao.cpp">
+      <Filter>源文件\CRank</Filter>
+    </ClCompile>
+    <ClCompile Include="CScoreLogic.cpp">
+      <Filter>源文件\CRank</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingDlg.cpp">
+      <Filter>源文件\CDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CThemeOptionDlg.cpp">
+      <Filter>源文件\CDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LLK.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\LLK.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\LLK.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\llk_main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
